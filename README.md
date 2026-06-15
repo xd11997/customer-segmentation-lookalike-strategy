@@ -13,7 +13,7 @@ How can businesses identify customers with higher cross-category purchase potent
 This project demonstrates an end-to-end customer growth analytics workflow:
 
 - Defined cross-category and non-cross-category buyers
-- Engineered 10 behavioral features across five dimensions (recency, requency, etc.)
+- Engineered 10 behavioral features across five dimensions (recency, frequency, etc.)
 - Applied **K-Means** clustering to identify customer segments
 - Computed TGI (Target Group Index) for each segment to evaluate behavioral differences versus the overall population and determine **whether segment-specific marketing strategies were warranted**
 - Designed segment-specific activation strategies
