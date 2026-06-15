@@ -13,9 +13,9 @@ How can businesses identify customers with higher cross-category purchase potent
 This project demonstrates an end-to-end customer growth analytics workflow:
 
 - Defined cross-category and non-cross-category buyers
-- Engineered 10 behavioral features across five dimensions
-- Applied K-Means clustering to identify customer segments
-- Conducted TGI profiling to understand segment characteristics
+- Engineered 10 behavioral features across five dimensions (recency, requency, etc.)
+- Applied **K-Means** clustering to identify customer segments
+- Computed TGI (Target Group Index) for each segment to evaluate behavioral differences versus the overall population and determine **whether segment-specific marketing strategies were warranted**
 - Designed segment-specific activation strategies
 - Expanded high-potential audiences through lookalike targeting
 
@@ -41,9 +41,9 @@ TGI analysis revealed significant behavioral differences across 2 out of 3 segme
 ![TGI analysis](./figures/tgi_per_cluster.png)
 
 ## Lookalike Audience Expansion
-Behavioral similarity matching was used to identify high-potential users among non-cross-category buyers.
+The identified Loyal and Explorer segments were used as seed audiences to find behaviorally similar users among non-cross-category buyers, **creating a scalable target pool** for future segment-specific marketing campaigns.
 
-**Results**
+### Results
 ![Lookalike Audience](./figures/lookalike_audience_size.png)
 
 ## Tech Stack
