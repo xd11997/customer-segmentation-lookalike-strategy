@@ -48,3 +48,9 @@ The identified Loyal and Explorer segments were used as seed audiences to find b
 
 ## Tech Stack
 BigQuery • SQL • Python • K-Means Clustering
+
+---
+
+**Author**: Iris Xia
+
+**Email**: iris.daxia@gmail.com
