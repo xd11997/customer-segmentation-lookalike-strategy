@@ -47,4 +47,4 @@ The identified Loyal and Explorer segments were used as seed audiences to find b
 ![Lookalike Audience](./figures/lookalike_audience_size.png)
 
 ## Tech Stack
-BigQuery • SQL • Python • K-Means Clustering • Tableau
+BigQuery • SQL • Python • K-Means Clustering
